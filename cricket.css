@@ -1,0 +1,51 @@
+.t-bar {
+  border: 0px solid black;
+  border-radius: 90px;
+  background-color: rgb(253, 143, 211);
+  color: rgb(31, 18, 105);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  text-align: center;
+  font-size: 19px;
+  background-color: rgb(253, 209, 250);
+}
+
+.btn {
+  height: 170px;
+  width: 170px;
+  border: none;
+  margin: 25px;
+  border-radius: 50%;
+  background-color: rgb(70, 82, 245);
+  cursor: pointer;
+  box-shadow: 0 0 25px red;
+}
+
+.choice-image {
+  height: 130px;
+  border-radius: 50%;
+}
+
+.R-button {
+  font-size: 20px;
+  width: 170px;
+  height: 45px;
+  margin: 10px;
+  border-radius: 7px;
+  color: white;
+  background-color: rgb(250, 4, 4);
+  box-shadow: 0 0 25px blue;
+}
+
+.btn:hover {
+  box-shadow: 0 0 30px cyan;
+}
+
+.R-button:hover {
+  box-shadow: 0 0 30px cyan;
+  background-color: rgb(125, 190, 190);
+  color: black;
+}
